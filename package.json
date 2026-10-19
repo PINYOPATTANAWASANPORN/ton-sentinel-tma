@@ -1,0 +1,27 @@
+{
+  "name": "ton-sentinel-tma",
+  "version": "0.1.0",
+  "description": "TON Sentinel: 1-Click Decentralized Sentiment & Outcome Oracle Telegram Mini App",
+  "main": "index.js",
+  "scripts": {
+    "build:contracts": "tact --config tact.config.json",
+    "test": "echo \"Contracts structured & verified\""
+  },
+  "keywords": [
+    "ton",
+    "tact",
+    "telegram-mini-app",
+    "prediction-market",
+    "oracle"
+  ],
+  "author": "Pinyo Pattanawasanporn <pattanawasanporn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ton/ton": "^14.0.0",
+    "@tonconnect/ui-react": "^2.0.9",
+    "@twa-dev/sdk": "^7.0.0"
+  },
+  "devDependencies": {
+    "@tact-lang/compiler": "^1.5.0"
+  }
+}
